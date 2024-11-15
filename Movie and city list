@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie and City Lists</title>
+    <style>
+        .favorite {
+            color: #ff6600;
+            font-weight: bold;
+        }
+        .city-list li:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+        .city-list li:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie and City Lists</h1>
+    
+    <h2>Favorite Movies</h2>
+    <ul>
+        <li>The Shawshank Redemption</li>
+        <li>Inception</li>
+        <li class="favorite">Pulp Fiction</li>
+        <li>The Godfather</li>
+        <li>Forrest Gump</li>
+    </ul>
+    
+    <h2>Top Cities to Visit</h2>
+    <ol class="city-list">
+        <li>Paris, France</li>
+        <li>Tokyo, Japan</li>
+        <li>New York City, USA</li>
+        <li>Rome, Italy</li>
+        <li>Sydney, Australia</li>
+    </ol>
+</body>
+</html>

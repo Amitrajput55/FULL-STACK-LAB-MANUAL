@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        thead {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Timetable</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>History</td>
+                <td>Art</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Geography</td>
+                <td>Music</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>History</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>PE</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td colspan="5">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>1:00 PM</td>
+                <td>English</td>
+                <td>Art</td>
+                <td>History</td>
+                <td>Math</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Geography</td>
+                <td>Music</td>
+                <td>PE</td>
+                <td>Science</td>
+                <td>Math</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">* Schedule is subject to change</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
